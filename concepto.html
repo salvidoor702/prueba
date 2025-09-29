@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vitaminas - Biología 9°</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #C8E6C9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2e7d32, #66bb6a);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 6px solid #1b5e20;
+    }
+
+    nav {
+      background: #388e3c;
+      text-align: center;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #ffffff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #C8E6C9;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .vitamina {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .texto {
+      flex: 2;
+    }
+
+    .texto h2, .texto h3 {
+      color: #2e7d32;
+    }
+
+    .texto ul {
+      padding-left: 20px;
+    }
+
+    .imagen {
+      flex: 1;
+    }
+
+    .imagen img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    footer {
+      background: #388e3c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 0 0 20px 20px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vitaminas: esenciales para la vida</h1>
+    <p>Proyecto de Biología - 9° Grado</p>
+  </header>
+
+  <nav>
+    <a href="#absorcion">Absorción y Clasificación</a>
+    <a href="#vitaminaA">Vitamina A</a>
+    <a href="#vitaminaD">Vitamina D</a>
+    <a href="#vitaminaE">Vitamina E</a>
+    <a href="#vitaminaK">Vitamina K</a>
+    <a href="#hidrosolubles">Vitaminas Hidrosolubles</a>
+    <a href="#vitaminaB1">Vitamina B1</a>
+    <a href="#vitaminaB2">Vitamina B2</a>
+    <a href="#vitaminaB3">Vitamina B3</a>
+    <a href="#vitaminaB6B9B12">Vitaminas B6, B9 y B12</a>
+    <a href="#vitaminaC">Vitamina C</a>
+  </nav>
+
+  <!-- Absorción -->
+  <section id="absorcion">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Absorción y Clasificación de las Vitaminas</h2>
+        <h3>Liposolubles</h3>
+        <p>Se absorben junto con otros lípidos en el intestino delgado. Pueden ser almacenados en hepatocitos.</p>
+        <p>Comprenden a las vitaminas <strong>A, D, E y K</strong>.</p>
+
+        <h3>Hidrosolubles</h3>
+        <p>Se absorben junto con el agua en el estómago y los intestinos, no son almacenadas y se excretan con la orina.</p>
+        <p>Comprenden al complejo B y la vitamina C.</p>
+      </div>
+      <div class="imagen">
+        <img src="vitaminas2.png" alt="Clasificación de vitaminas">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitamina A -->
+  <section id="vitaminaA">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitamina A (Retinol)</h2>
+        <h3>Funciones</h3>
+        <ul>
+          <li>Mantiene íntegros los epitelios.</li>
+          <li>Fundamental en la síntesis de pigmentos visuales (rodopsina).</li>
+          <li>Influye en el desarrollo normal de los huesos.</li>
+          <li>Es tóxica en grandes cantidades.</li>
+        </ul>
+        <h3>Deficiencias</h3>
+        <ul>
+          <li>Ceguera nocturna.</li>
+          <li>Sensibilidad a infecciones.</li>
+          <li>Xeroftalmia: queratinización en ojos y vías respiratorias.</li>
+        </ul>
+        <h3>Fuentes</h3>
+        <ul>
+          <li>Leche, mantequilla, aceites, hígado, zanahoria.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="vitamina a (1).png" alt="Alimentos ricos en vitamina A">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitamina D -->
+  <section id="vitaminaD">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitamina D (Calciferol)</h2>
+        <h3>Funciones</h3>
+        <ul>
+          <li>Metabolismo del calcio y fósforo.</li>
+          <li>Crecimiento de huesos.</li>
+          <li>Tóxica en altas dosis.</li>
+        </ul>
+        <h3>Deficiencias</h3>
+        <ul>
+          <li>Raquitismo en niños.</li>
+          <li>Osteomalacia en adultos.</li>
+        </ul>
+        <h3>Fuentes</h3>
+        <ul>
+          <li>Aceites, hígado de pescado, mantequilla.</li>
+          <li>Sintetizada en la piel con luz solar.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="vitaminad.jpeg" alt="Sol y alimentos con vitamina D">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitamina E -->
+  <section id="vitaminaE">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitamina E (Tocoferol)</h2>
+        <h3>Funciones</h3>
+        <ul>
+          <li>Antioxidante.</li>
+          <li>Protege contra el cáncer.</li>
+        </ul>
+        <h3>Fuentes</h3>
+        <ul>
+          <li>Yema de huevo, aceites vegetales, alimentos vegetales y animales.</li>
+        </ul>
+        <h3>Deficiencias</h3>
+        <ul>
+          <li>Fragilidad en glóbulos rojos.</li>
+          <li>Distrofia muscular.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="vitamina e.png" alt="Alimentos con vitamina E">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitamina K -->
+  <section id="vitaminaK">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitamina K (Filoquinona)</h2>
+        <h3>Funciones</h3>
+        <ul>
+          <li>Síntesis de protrombina.</li>
+          <li>Coagulación sanguínea.</li>
+        </ul>
+        <h3>Fuentes</h3>
+        <ul>
+          <li>Espinacas, lechuga.</li>
+          <li>Sintetizada por bacterias intestinales.</li>
+        </ul>
+        <h3>Deficiencias</h3>
+        <ul>
+          <li>Disminuye la velocidad de coagulación.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="vitamina k.png" alt="Vegetales verdes ricos en vitamina K">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitaminas Hidrosolubles -->
+  <section id="hidrosolubles">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitaminas Hidrosolubles</h2>
+        <p>Se absorben con agua en estómago e intestinos, no se almacenan y se eliminan por la orina.</p>
+        <p>Incluyen al complejo B y la vitamina C.</p>
+      </div>
+      <div class="imagen">
+        <img src="hidrosolub.jpeg" alt="Vitaminas hidrosolubles">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitamina B1 -->
+  <section id="vitaminaB1">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitamina B1 (Tiamina)</h2>
+        <h3>Funciones</h3>
+        <ul>
+          <li>Asimilación de carbohidratos y aminoácidos.</li>
+          <li>Mantenimiento de mucosas.</li>
+        </ul>
+        <h3>Fuentes</h3>
+        <ul>
+          <li>Hígado, huevos, queso, leche, verduras, frutas.</li>
+        </ul>
+        <h3>Deficiencias</h3>
+        <ul>
+          <li>Beriberi (atrofia muscular).</li>
+          <li>Daños en nervios y corazón.</li>
+          <li>Falta de coordinación.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="vitamina b1.png" alt="Alimentos con vitamina B1">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitamina B2 -->
+  <section id="vitaminaB2">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitamina B2 (Riboflavina)</h2>
+        <h3>Funciones</h3>
+        <ul>
+          <li>Metabolismo celular y nutrientes.</li>
+          <li>Mantenimiento de piel y mucosas.</li>
+        </ul>
+        <h3>Fuentes</h3>
+        <ul>
+          <li>Hígado, leche, huevos, verduras.</li>
+        </ul>
+        <h3>Deficiencias</h3>
+        <ul>
+          <li>Inflamación de lengua y ojos.</li>
+          <li>Debilidad general.</li>
+          <li>Queilosis y dermatitis.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="vitaminab2.jpeg" alt="Fuentes de vitamina B2">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitamina B3 -->
+  <section id="vitaminaB3">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitamina B3 (Niacina)</h2>
+        <h3>Funciones</h3>
+        <ul>
+          <li>Función nerviosa normal.</li>
+          <li>Mantenimiento de piel y aparato digestivo.</li>
+        </ul>
+        <h3>Fuentes</h3>
+        <ul>
+          <li>Carne, leche, huevos, hígado.</li>
+        </ul>
+        <h3>Deficiencias</h3>
+        <ul>
+          <li>Pelagra (dermatitis, diarrea y demencia).</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="vitamina b3.png" alt="Alimentos ricos en vitamina B3">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitaminas B6, B9 y B12 -->
+  <section id="vitaminaB6B9B12">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitaminas B6, B9 y B12</h2>
+
+        <h3>Vitamina B6 (Piridoxina)</h3>
+        <ul>
+          <li>Metabolismo de proteínas y grasas.</li>
+        </ul>
+
+        <h3>Vitamina B9 (Ácido fólico)</h3>
+        <ul>
+          <li>Síntesis de ácidos nucleicos.</li>
+          <li>Formación de glóbulos rojos.</li>
+        </ul>
+
+        <h3>Vitamina B12 (Cianocobalamina)</h3>
+        <ul>
+          <li>Formación de glóbulos rojos.</li>
+          <li>Mantenimiento del sistema nervioso.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="vitaminabb.jpeg" alt="Fuentes de vitaminas B6, B9 y B12">
+      </div>
+    </div>
+  </section>
+
+  <!-- Vitamina C -->
+  <section id="vitaminaC">
+    <div class="vitamina">
+      <div class="texto">
+        <h2>Vitamina C (Ácido ascórbico)</h2>
+        <h3>Funciones</h3>
+        <ul>
+          <li>Integridad de paredes capilares.</li>
+          <li>Favorece la cicatrización.</li>
+        </ul>
+        <h3>Fuentes</h3>
+        <ul>
+          <li>Frutas cítricas, tomates, pimientos, verduras verdes.</li>
+        </ul>
+        <h3>Deficiencias</h3>
+        <ul>
+          <li>Escorbuto.</li>
+          <li>Fragilidad capilar.</li>
+          <li>Pérdida de dientes.</li>
+        </ul>
+      </div>
+      <div class="imagen">
+        <img src="vitamina c.png" alt="Frutas ricas en vitamina C">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Proyecto escolar - Biología 9° Grado</p>
+  </footer>
+</body>
+</html>
+
+
